@@ -181,3 +181,55 @@ body {
     height: 1px;
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+@media screen and (max-width: 768px) {
+    .body-container {
+        flex-direction: column; /* Stack sidebar and content vertically */
+    }
+
+    .sidebar {
+        width: 100%;
+        max-width: none;
+        min-height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .sidebar-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 0;
+    }
+
+    .sidebar-links p {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .intro-title {
+        font-size: 1.5rem;
+    }
+
+    .intro-description {
+        font-size: 0.95rem;
+        padding: 0 15px;
+    }
+
+    .last-update {
+        margin-top: 20px;
+        font-size: 0.8rem;
+    }
+}
