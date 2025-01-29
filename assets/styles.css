@@ -233,7 +233,13 @@ body {
     }
 
     .last-update {
-        margin-top: 20px;
         font-size: 0.8rem;
+        color: #9c9fa5dd;
+        margin-top: 40px;
+        text-align: center; 
+        margin-left: auto;  
+        margin-right: auto; 
+        display: block; 
     }
+    
 }
