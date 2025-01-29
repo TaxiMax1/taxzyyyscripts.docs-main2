@@ -184,7 +184,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .body-container {
-        flex-direction: column; /* Stack sidebar and content vertically */
+        flex-direction: column; 
     }
 
     .sidebar {
@@ -213,6 +213,10 @@ body {
         font-size: 0.9rem;
         text-align: center;
         margin-bottom: 5px;
+    }
+
+    .sidebar-footer {
+        visibility: hidden;
     }
 
     .main-content {
