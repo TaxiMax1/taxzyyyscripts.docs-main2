@@ -142,7 +142,7 @@ body {
 .sidebar-links a.active {
     background-color: var(--highlight-color); 
     color: var(--highlight-text); 
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .main-content {
