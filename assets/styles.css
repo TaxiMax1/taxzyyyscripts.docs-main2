@@ -299,8 +299,10 @@ body {
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
-    padding: 6px 6px;
-    font-size: 1.1rem;
+    padding: 4px 6px;
+    width: 100%;
+    max-width: 85px;
+    font-size: 1.0rem;
     font-weight: 100;
     margin-left: 14px;
     margin-top: -10px;
@@ -309,6 +311,11 @@ body {
 
 .shopbottom i {
     padding: 5px 5px;
+    z-index: 2;
+}
+
+#tag-icon {
+    font-size: 1.2rem;
 }
 
 
