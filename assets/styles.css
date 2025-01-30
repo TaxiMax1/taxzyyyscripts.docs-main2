@@ -573,4 +573,12 @@ body {
         margin: 10px auto;
     }
 
+    .next-page {
+        display: none;
+    }
+
+    .next-page-back {
+        display: none;
+    }
+
 }
