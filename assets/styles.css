@@ -295,6 +295,15 @@ body {
 
 
 
+.shopbottom {
+    color: #9ca3af;
+    background-color: transparent;
+    border: 1px solid #ffffff1a;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+}
+
+
 
 .installation-text {
     font-size: 1.7rem;
