@@ -296,11 +296,19 @@ body {
 
 
 .shopbottom {
-    color: #9ca3af;
+    color: #fff;
     background-color: transparent;
-    border: 1px solid #ffffff1a;
-    padding: 5px 10px;
-    font-size: 1.3rem;
+    border: 1px solid #fff;
+    padding: 6px 6px;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-left: 14px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.shopbottom i {
+    padding: 5px 5px;
 }
 
 
