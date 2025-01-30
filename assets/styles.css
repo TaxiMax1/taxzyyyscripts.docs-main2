@@ -1,5 +1,7 @@
 :root {
     --bg-color: #111111;
+    --highlight-color: rgba(159, 44, 44, 0.2);
+    --highlight-text: rgb(255, 110, 110);
 }
 
 
@@ -79,24 +81,31 @@ body {
 
 .sidebar {
     width: 100%;
-    max-width: 250px; 
+    max-width: 250px;
     min-height: 100vh;
-    background-color: var(--bg-color);;
-    padding: 0px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: var(--bg-color);
 }
 
 .sidebar-links {
     list-style: none;
     padding: 0;
-    margin-top: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.sidebar-links li {
+    display: block;
 }
 
 .sidebar-links p {
     margin: 0;
-    padding: 10px 15px; 
+    padding: 0px 15px; 
     font-size: 0.9rem;
     color: #d1d5dbb6;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -106,28 +115,24 @@ body {
 }
 
 .sidebar-links a {
-    text-decoration: none;
-    color: inherit;
     display: block;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: #d1d5dbb6;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.sidebar-links p:hover,
-.sidebar-links p.active {
+.sidebar-links a:hover {
     background-color: rgba(199, 199, 199, 0.1);
 }
 
-.sidebar-links p.active {
-    background-color: rgba(159, 44, 44, 0.1);
-    color: rgb(181, 56, 56);
-    font-weight: 600;
-}
 
-.sidebar-footer {
-    margin-top: auto;
-    padding-top: 20px;
-    font-size: 0.9rem;
-    color: #9ca3af;
-    text-align: center;
+.sidebar-links a.active {
+    background-color: var(--highlight-color);
+    color: var(--highlight-text);
+    font-weight: 600;
 }
 
 .main-content {
@@ -373,7 +378,6 @@ body {
     }
 
     .sidebar {
-        width: 100%;
         max-width: none;
         min-height: auto;
         padding: 10px;
@@ -391,6 +395,13 @@ body {
         justify-content: center;
         gap: 10px;
         margin-top: 0;
+    }
+
+    .sidebar-links li {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 5px;
     }
 
     .sidebar-links p {
