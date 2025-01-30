@@ -350,7 +350,7 @@ body {
 .next-page a {
     display: inline-flex; 
     align-items: center; 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 100;
     cursor: pointer;
     color: #d1d5db;
