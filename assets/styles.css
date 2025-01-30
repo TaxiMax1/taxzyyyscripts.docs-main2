@@ -128,10 +128,9 @@ body {
     background-color: rgba(199, 199, 199, 0.1);
 }
 
-
 .sidebar-links a.active {
-    background-color: var(--highlight-color);
-    color: var(--highlight-text);
+    background-color: var(--highlight-color); 
+    color: var(--highlight-text); 
     font-weight: 600;
 }
 
