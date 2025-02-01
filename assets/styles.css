@@ -364,7 +364,7 @@ body {
     position: relative;
     z-index: 2;
     color: #9ca3af;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 0.9rem;
     padding: 12px;
 }
@@ -426,8 +426,10 @@ body {
     cursor: pointer;
     color: #d1d5db;
     width: 100%;
-    max-width: 125px;
-    font-family: Arial, Helvetica, sans-serif;
+    max-width: 125px;   
+    font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-weight: 500;
+    margin-left: 20px;
 }
 
 
